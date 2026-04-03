@@ -2,6 +2,8 @@
 
 A lightweight Python/PyQt6 acquisition software for IDS uEye USB3 cameras (tested on UI-3040CP-M), developed for scientific brightfield imaging.
 
+The codes and the github wrapping have been created using Anthropic Claude Sonnet 4.6.
+
 ## Features
 
 - Live preview with adjustable exposure and gain
@@ -58,7 +60,9 @@ ids-ueye-acquisition/
 ## Usage
 
 ```bash
-source ~/envs/camera/bin/activate
+source ~/egit remote add origin https://github.com/FattaccioliLab/ids_uEye_camera.git
+git branch -M main
+git push -u origin mainnvs/camera/bin/activate
 python main.py
 ```
 
