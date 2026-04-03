@@ -1,0 +1,13 @@
+PyQt6>=6.5.0
+opencv-python-headless>=4.8.0
+tifffile>=2023.1.1
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# IDS peak Python bindings — installed from the IDS peak SDK, not PyPI.
+# After installing the IDS peak SDK, run:
+#   pip install /usr/local/share/ids/bindings/python/ids_peak-*.whl
+#   pip install /usr/local/share/ids/bindings/python/ids_peak_ipl-*.whl
+#   pip install /usr/local/share/ids/bindings/python/ids_peak_icv-*.whl
+#   pip install /usr/local/share/ids/bindings/python/ids_peak_afl-*.whl
+# (paths may vary depending on SDK version and install prefix)
