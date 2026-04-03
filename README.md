@@ -107,6 +107,10 @@ with tifffile.TiffFile("frame_00000.tiff") as tif:
 - The `DataStream` is opened once per session and reused across stop/start cycles to avoid `GC_ERR_RESOURCE_IN_USE` errors.
 - Saved TIFFs are always 16-bit regardless of the camera pixel format (uint8 frames are upscaled to preserve dynamic range headroom).
 
+## To add in the future
+
+- Possibility to add a scale manually, with a scalebar on the stream
+
 ## License
 
 MIT
